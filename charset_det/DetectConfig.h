@@ -1,0 +1,20 @@
+#pragma once
+
+//#define DETECT_WITH_ICU
+#define DETECT_WITH_COMPACT_ENC
+//#define DETECT_WITH_UCHARSET
+
+#ifndef DETECT_WITH_ICU
+#define DETECT_WITH_ICU
+#endif
+
+#ifndef DETECT_WITH_COMPACT_ENC
+#define DETECT_WITH_COMPACT_ENC
+#endif
+
+#ifndef DETECT_WITH_UCHARSET
+#define DETECT_WITH_UCHARSET
+#endif
+
+
+

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="conv">
+      <UniqueIdentifier>{86d5dd17-401b-418a-a919-2d15a291015f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="det">
+      <UniqueIdentifier>{5d233a49-d7db-4236-bada-f668756df4d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="charset_det\CharsetDetector.cpp">
+      <Filter>det</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_det\CompactEncDetector.cpp">
+      <Filter>det</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_det\IcuCharsetDetector.cpp">
+      <Filter>det</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_det\UcharDetector.cpp">
+      <Filter>det</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_conv\src\encoding.cpp">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_conv\src\locale_data.cpp">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_conv\src\locale_facet_info.cpp">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="charset_conv\src\util.cpp">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="charset_det\CharsetDetector.h">
+      <Filter>det</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_det\CompactEncDetector.h">
+      <Filter>det</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_det\DetectConfig.h">
+      <Filter>det</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_det\IcuCharsetDetector.h">
+      <Filter>det</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_det\UcharDetector.h">
+      <Filter>det</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\include\conv\encoding.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\include\conv\encoding_errors.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\include\conv\locale_facet_info.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\config.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\converter.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\encoding_utf.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\hold_ptr.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\iconv_conv.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\iconv_converter.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\icu_conv.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\icu_converter.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\locale_data.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\utf.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\util.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\windows_conv.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="charset_conv\src\windows_converter.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
